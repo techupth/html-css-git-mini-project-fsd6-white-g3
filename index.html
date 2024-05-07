@@ -4,12 +4,217 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
     <title>Travel Company</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <section>
-      <!-- 1 -->
+    <section class="flex w-[375px] h-[1092px] sm:flex sm:w-[1920px] sm:h-full">
+      <div
+        class="sm:h-[900px] w-[1920px] bg-cover relative bg-center"
+        style="
+          background-image: linear-gradient(
+              94.53deg,
+              rgba(252, 254, 255, 0.8) 25.16%,
+              #ffffff 100.79%
+            ),
+            url(./img/bg.jpg);
+        "
+      >
+        <div
+          class="absolute w-[327px] left-[24px] top-[20px] sm:w-full sm:h-[120px] sm:flex sm:flex-row sm:justify-around sm:items-center"
+        >
+          <div class="flex items-center justify-between">
+            <h1
+              class="font-bold text-[28.33px] leading-[45.95px] flex items-center sm:font-bold sm:text-[48.12px] sm:leading-[78.05px]"
+              style="font-family: Baloo Bhai 2"
+            >
+              Tripp<span
+                class="font-bold text-[28.33px] leading-[45.95px] flex items-center sm:font-bold sm:text-[48.12px] sm:leading-[78.05px] text-[#FF6525]"
+                style="font-family: Baloo Bhai 2"
+                >.</span
+              >
+            </h1>
+            <img src="./img/Menu.png" class="flex items-center sm:hidden" />
+          </div>
+          <ul
+            class="font-medium text-[18px] leading-[23.44px] hidden items-center w-[446px] h-[23px] justify-between sm:flex"
+            style="font-family: dm sans"
+          >
+            <li>
+              <a href="#">Home</a>
+              <div class="w-[46px] h-[2px] bg-[#FF6525]"></div>
+            </li>
+
+            <li><a href="#" class="text-[#A8A8A8]">About</a></li>
+            <li><a href="#" class="text-[#A8A8A8]">Blog</a></li>
+            <li><a href="#" class="text-[#A8A8A8]">Tour Package</a></li>
+          </ul>
+          <div
+            class="w-[175px] h-[64px] rounded-[15px] hidden sm:flex justify-center items-center"
+            style="
+              background: linear-gradient(180deg, #fe5b3e 0%, #fe7b49 100%);
+            "
+          >
+            <h1 class="text-[16px] text-white font-bold leading-[20.83px]">
+              Contact Us
+            </h1>
+          </div>
+        </div>
+        <img
+          src="./img/Img@2x.png"
+          class="w-[310.15px] h-[275.22px] absolute top-[103px] left-[10px] sm:absolute sm:top-[206px] sm:left-[1017px] sm:h-[592.21px] sm:w-[650px]"
+        />
+        <div
+          class="w-[327px] h-[80px] absolute top-[423px] left-[24px] sm:w-[505px] sm:h-[330px] sm:top-[310px] sm:left-[249px] sm:absolute"
+        >
+          <div class="w-[327px] h-[80px] sm:w-[505px] sm:h-[220px]">
+            <h1
+              class="font-normal text-[30px] leading-[40px] sm:text-[100px] sm:font-normal sm:leading-[110px]"
+              style="font-family: paytone one"
+            >
+              Fuel Mind <br />by Travel
+            </h1>
+          </div>
+        </div>
+        <p
+          class="text-[#5A7184] w-[327px] h-[108px] absolute top-[519px] left-[24px] sm:text-[20px] sm:font-normal sm:leading-[40px] sm:absolute sm:top-[560px] sm:left-[249px] sm:w-[484px] sm:h-[249px]"
+          style="font-family: dm sans"
+        >
+          Enthusiastically extend extensive customer service before best breed
+          convergence completely.
+        </p>
+      </div>
+      <div
+        class="w-[327px] h-[392px] absolute top-[651px] flex justify-center items-center left-[24px] sm:w-[1057px] sm:h-[140px] rounded-[20px] bg-[#ffffff] sm:absolute sm:left-[612px] sm:top-[830px] sm:rounded-[20px] sm:flex sm:items-center sm:justify-between"
+      >
+        <div class="w-[195px] h-[332px] flex flex-col items-center sm:flex sm:flex-row sm:w-full">
+          <div
+            class="w-[195px] h-[332px] flex flex-col items-center justify-between sm:w-[550px] sm:h-[54px] sm:m-20 sm:flex sm:justify-between sm:flex-row"
+          >
+            <div class="w-[94px] h-[54px] flex flex-col justify-between">
+              <div class="flex items-center justify-center">
+                <h1
+                  class="w-[94px] h-[21px] font-bold text-[16px] leading-[20.83px text-[#a8a8a8] text-center"
+                  style="font-family: dm sans"
+                >
+                  Location
+                </h1>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-[16px] h-[16px] text-[#FF8345]"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <h1
+                class="font-bold text-[16px] leading-[20.83px] text-[#2213134] text-center"
+              >
+                Cox’s Bazar
+              </h1>
+            </div>
+            <div class="flex items-center sm:flex sm:items-center">
+              <div
+                class="w-[37px] flex items-center border border-[#221314] sm:h-[37px] sm:w-0 sm:border sm:border-[#221314] opacity-20 sm:flex sm:items-center"
+              ></div>
+            </div>
+            <div class="w-[220px] h-[54px] flex flex-col justify-between items-center">
+              <div class="flex items-center">
+                <h1
+                  class="w-[63px] h-[21px] font-bold text-[16px] leading-[20.83px text-[#a8a8a8] text-center"
+                  style="font-family: dm sans"
+                >
+                  Date
+                </h1>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-[16px] h-[16px] text-[#FF8345]"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <h1
+                class="font-bold text-[16px] leading-[20.83px] text-[#2213134]"
+              >
+                Mon, 14 Mar - Thu, 17 Mar
+              </h1>
+            </div>
+            <div class="flex items-center sm:flex sm:items-center">
+              <div
+                class="w-[37px] sm:h-[37px] border border-[#221314] opacity-20 sm:w-0 flex items-center"
+              ></div>
+            </div>
+            <div class="w-[101px] h-[54px] flex flex-col justify-between">
+              <div class="flex items-center">
+                <h1
+                  class="w-[94px] h-[21px] font-bold text-[16px] leading-[20.83px text-[#a8a8a8] text-center"
+                  style="font-family: dm sans"
+                >
+                  Avg. Price
+                </h1>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-[16px] h-[16px] text-[#FF8345]"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <h1
+                class="font-bold text-[16px] leading-[20.83px] text-[#2213134]"
+              >
+                $300 - $600
+              </h1>
+            </div>
+          </div>
+          <div
+            class="w-[177px] h-[70px] rounded-[15px] flex justify-center m-5 items-center sm:w-[177px] sm:h-[70px] sm:flex sm:justify-center sm:items-center sm:rounded-[15px] sm:m-10"
+            style="
+              background: linear-gradient(180deg, #fe5b3e 0%, #fe7b49 100%);
+            "
+          >
+            <div class="w-[98px] h-[24px] flex justify-between items-center">
+              <h1 class="font-bold text-[16px] leading-[20.83px] text-white">
+                Explore
+              </h1>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="w-5 h-5 text-white"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section>
       <!-- 2 -->
