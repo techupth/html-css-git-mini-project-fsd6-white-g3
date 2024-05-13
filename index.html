@@ -25,7 +25,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="w-screen h-screen flex flex-col items-center">
+  <body class="w-screen h-screen flex flex-col items-center overflow-x-hidden">
     <section class="w-[375px] h-[1092px] 2xl:flex 2xl:w-[1920px] 2xl:h-full">
       <div
         class="2xl:h-[900px] 2xl:w-[1920px] bg-cover relative bg-center h-[990px] w-[375px]"
@@ -55,17 +55,16 @@
             <img src="./Menu.png" class="flex items-center 2xl:hidden" />
           </div>
           <ul
-            class="font-medium text-[18px] leading-[23.44px] hidden items-center w-[446px] h-[23px] justify-between 2xl:flex"
+            class="font-medium text-[18px] leading-[23.44px] hidden items-center w-[446px] h-[23px] justify-between 2xl:flex 2xl:relative"
             style="font-family: dm sans"
           >
             <li>
-              <a href="#">Home</a>
-              <div class="w-[46px] h-[2px] bg-[#FF6525]"></div>
+              <a href="#" class="2xl:relative 2xl:after:w-0 2xl:after:absolute 2xl:after:h-[2px] 2xl:after:bg-[#FF6525] 2xl:after:top-[23px] 2xl:after:left-0 2xl:after:ease-in-out 2xl:after:duration-500 2xl:hover:after:w-full 2xl:hover:after:duration-1000">Home</a>
             </li>
 
-            <li><a href="#" class="text-[#A8A8A8]">About</a></li>
-            <li><a href="#" class="text-[#A8A8A8]">Blog</a></li>
-            <li><a href="#" class="text-[#A8A8A8]">Tour Package</a></li>
+            <li><a href="#" class="text-[#A8A8A8] 2xl:relative 2xl:after:w-0 2xl:after:absolute 2xl:after:h-[2px] 2xl:after:bg-[#FF6525] 2xl:after:top-[23px] 2xl:after:left-0 2xl:after:ease-in-out 2xl:after:duration-500 2xl:hover:after:w-full 2xl:hover:after:duration-1000">About</a></li>
+            <li><a href="#" class="text-[#A8A8A8] 2xl:relative 2xl:after:w-0 2xl:after:absolute 2xl:after:h-[2px] 2xl:after:bg-[#FF6525] 2xl:after:top-[23px] 2xl:after:left-0 2xl:after:ease-in-out 2xl:after:duration-500 2xl:hover:after:w-full 2xl:hover:after:duration-1000">Blog</a></li>
+            <li><a href="#" class="text-[#A8A8A8] 2xl:relative 2xl:after:w-0 2xl:after:absolute 2xl:after:h-[2px] 2xl:after:bg-[#FF6525] 2xl:after:top-[23px] 2xl:after:left-0 2xl:after:ease-in-out 2xl:after:duration-500 2xl:hover:after:w-full 2xl:hover:after:duration-1000">Tour Package</a></li>
           </ul>
           <div
             class="w-[175px] h-[64px] rounded-[15px] hidden 2xl:flex justify-center items-center"
