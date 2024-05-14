@@ -4,9 +4,593 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Travel Company</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <!-- Start Coding here -->
+  <body class="w-screen h-screen flex flex-col items-center overflow-x-hidden">
+    <section class="w-[375px] h-[1092px] 2xl:flex 2xl:w-[1920px] 2xl:h-full">
+      <div
+        class="2xl:h-[900px] 2xl:w-[1920px] bg-cover relative bg-center h-[990px] w-[375px]"
+        style="
+          background-image: linear-gradient(
+              94.53deg,
+              rgba(252, 254, 255, 0.8) 25.16%,
+              #ffffff 100.79%
+            ),
+            url(./bg.jpg);
+        "
+      >
+        <div
+          class="w-[327px] left-[24px] top-[20px] absolute 2xl:w-full 2xl:h-[120px] 2xl:flex 2xl:flex-row 2xl:justify-around 2xl:items-center 2xl:top-0 2xl:left-0"
+        >
+          <div class="flex items-center justify-between">
+            <h1
+              class="font-bold text-[28.33px] leading-[45.95px] flex items-center 2xl:font-bold 2xl:text-[48.12px] 2xl:leading-[78.05px]"
+              style="font-family: Baloo Bhai 2"
+            >
+              Tripp<span
+                class="font-bold text-[28.33px] leading-[45.95px] flex items-center 2xl:font-bold 2xl:text-[48.12px] 2xl:leading-[78.05px] text-[#FF6525]"
+                style="font-family: Baloo Bhai 2"
+                >.</span
+              >
+            </h1>
+            <img src="./Menu.png" class="flex items-center 2xl:hidden" />
+          </div>
+          <ul
+            class="font-medium text-[18px] leading-[23.44px] hidden items-center w-[446px] h-[23px] justify-between 2xl:flex 2xl:relative"
+            style="font-family: dm sans"
+          >
+            <li>
+              <a href="#" class="2xl:relative 2xl:after:w-0 2xl:after:absolute 2xl:after:h-[2px] 2xl:after:bg-[#FF6525] 2xl:after:top-[23px] 2xl:after:left-0 2xl:after:ease-in-out 2xl:after:duration-500 2xl:hover:after:w-full 2xl:hover:after:duration-1000">Home</a>
+            </li>
+
+            <li><a href="#" class="text-[#A8A8A8] 2xl:relative 2xl:after:w-0 2xl:after:absolute 2xl:after:h-[2px] 2xl:after:bg-[#FF6525] 2xl:after:top-[23px] 2xl:after:left-0 2xl:after:ease-in-out 2xl:after:duration-500 2xl:hover:after:w-full 2xl:hover:after:duration-1000">About</a></li>
+            <li><a href="#" class="text-[#A8A8A8] 2xl:relative 2xl:after:w-0 2xl:after:absolute 2xl:after:h-[2px] 2xl:after:bg-[#FF6525] 2xl:after:top-[23px] 2xl:after:left-0 2xl:after:ease-in-out 2xl:after:duration-500 2xl:hover:after:w-full 2xl:hover:after:duration-1000">Blog</a></li>
+            <li><a href="#" class="text-[#A8A8A8] 2xl:relative 2xl:after:w-0 2xl:after:absolute 2xl:after:h-[2px] 2xl:after:bg-[#FF6525] 2xl:after:top-[23px] 2xl:after:left-0 2xl:after:ease-in-out 2xl:after:duration-500 2xl:hover:after:w-full 2xl:hover:after:duration-1000">Tour Package</a></li>
+          </ul>
+          <div
+            class="w-[175px] h-[64px] rounded-[15px] hidden 2xl:flex justify-center items-center"
+            style="
+              background: linear-gradient(180deg, #fe5b3e 0%, #fe7b49 100%);
+            "
+          >
+            <h1 class="text-[16px] text-white font-bold leading-[20.83px]">
+              Contact Us
+            </h1>
+          </div>
+        </div>
+        <img
+          src="./Img@2x.png"
+          class="w-[310.15px] h-[275.22px] absolute top-[103px] left-[10px] 2xl:absolute 2xl:top-[206px] 2xl:left-[1017px] 2xl:h-[592.21px] 2xl:w-[650px]"
+        />
+        <div
+          class="w-[327px] h-[80px] absolute top-[423px] left-[24px] 2xl:w-[505px] 2xl:h-[330px] 2xl:top-[310px] 2xl:left-[249px] 2xl:absolute"
+        >
+          <div class="w-[327px] h-[80px] 2xl:w-[505px] 2xl:h-[220px]">
+            <h1
+              class="font-normal text-[30px] leading-[40px] 2xl:text-[100px] 2xl:font-normal 2xl:leading-[110px]"
+              style="font-family: paytone one"
+            >
+              Fuel Mind <br />by Travel
+            </h1>
+          </div>
+        </div>
+        <p
+          class="text-[#5A7184] w-[327px] h-[108px] absolute top-[519px] left-[24px] 2xl:text-[20px] 2xl:font-normal 2xl:leading-[40px] 2xl:absolute 2xl:top-[560px] 2xl:left-[249px] 2xl:w-[484px] 2xl:h-[249px]"
+          style="font-family: dm sans"
+        >
+          Enthusiastically extend extensive customer service before best breed
+          convergence completely.
+        </p>
+        <div
+          class="w-[327px] h-[392px] absolute top-[651px] flex justify-center items-center left-[24px] 2xl:w-[1057px] 2xl:h-[140px] rounded-[20px] bg-[#ffffff] 2xl:absolute 2xl:left-[612px] 2xl:top-[830px] 2xl:rounded-[20px] 2xl:flex 2xl:items-center 2xl:justify-between drop-shadow-md"
+        >
+          <div
+            class="w-[195px] h-[332px] flex flex-col items-center 2xl:flex 2xl:flex-row 2xl:w-full"
+          >
+            <div
+              class="w-[195px] h-[332px] flex flex-col items-center justify-between 2xl:w-[550px] 2xl:h-[54px] 2xl:m-20 2xl:flex 2xl:justify-between 2xl:flex-row"
+            >
+              <div class="w-[94px] h-[54px] flex flex-col justify-between">
+                <div class="flex items-center justify-center">
+                  <h1
+                    class="w-[94px] h-[21px] font-bold text-[16px] leading-[20.83px text-[#a8a8a8] text-center"
+                    style="font-family: dm sans"
+                  >
+                    Location
+                  </h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="w-[16px] h-[16px] text-[#FF8345]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <h1
+                  class="font-bold text-[16px] leading-[20.83px] text-[#2213134] text-center flex justify-center"
+                >
+                  Cox’s Bazar
+                </h1>
+              </div>
+              <div class="flex items-center 2xl:flex 2xl:items-center">
+                <div
+                  class="w-[37px] flex items-center border border-[#221314] 2xl:h-[37px] 2xl:w-0 2xl:border 2xl:border-[#221314] opacity-20 2xl:flex 2xl:items-center"
+                ></div>
+              </div>
+              <div
+                class="w-[220px] h-[54px] flex flex-col justify-between items-center"
+              >
+                <div class="flex items-center">
+                  <h1
+                    class="w-[63px] h-[21px] font-bold text-[16px] leading-[20.83px text-[#a8a8a8] text-center"
+                    style="font-family: dm sans"
+                  >
+                    Date
+                  </h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="w-[16px] h-[16px] text-[#FF8345]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <h1
+                  class="font-bold text-[16px] leading-[20.83px] text-[#2213134]"
+                >
+                  Mon, 14 Mar - Thu, 17 Mar
+                </h1>
+              </div>
+              <div class="flex items-center 2xl:flex 2xl:items-center">
+                <div
+                  class="w-[37px] 2xl:h-[37px] border border-[#221314] opacity-20 2xl:w-0 flex items-center"
+                ></div>
+              </div>
+              <div class="w-[101px] h-[54px] flex flex-col justify-between">
+                <div class="flex items-center">
+                  <h1
+                    class="w-[94px] h-[21px] font-bold text-[16px] leading-[20.83px text-[#a8a8a8] text-center"
+                    style="font-family: dm sans"
+                  >
+                    Avg. Price
+                  </h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="w-[16px] h-[16px] text-[#FF8345]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <h1
+                  class="font-bold text-[16px] leading-[20.83px] text-[#2213134]"
+                >
+                  $300 - $600
+                </h1>
+              </div>
+            </div>
+            <div
+              class="w-[177px] h-[70px] rounded-[15px] flex justify-center m-5 items-center 2xl:w-[177px] 2xl:h-[70px] 2xl:flex 2xl:justify-center 2xl:items-center 2xl:rounded-[15px] 2xl:m-10"
+              style="
+                background: linear-gradient(180deg, #fe5b3e 0%, #fe7b49 100%);
+              "
+            >
+              <div class="w-[98px] h-[24px] flex justify-between items-center">
+                <h1 class="font-bold text-[16px] leading-[20.83px] text-white">
+                  Explore
+                </h1>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-5 h-5 text-white"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-screen h-screen flex justify-center items-center flex-col mt-[150px] 2xl:justify-start   2xl:items-start">
+      <div class=" w-[375px] flex flex-col">
+
+        <header
+          class="text-[24px] leading-[34px] font-[700px] realative top-[31px] left-[24px] w-[250px] h-[102px] 2xl:text-[48px] 2xl:leading-[68px] 2xl:relative 2xl:top-[71px] 2xl:w-[600px] 2xl:h-[136px] 2xl:left-[249px] "
+        >
+          <p style="font-family: poppins;" class="p-[21px] font-bold">Start Your Vacation with Lost of Services!</p>
+        </header>
+        <div
+          id="arrow"
+          class="relative top-[0px] left-[250px] 2xl:relative 2xl:left-[1400px] "
+        >
+          <img src="Pic section 2/view all.png" class="2xl:hidden">
+          <img src="./Pic section 2/view all service.png" alt="view all service" class="hidden 2xl:flex 2xl:absolute 2xl:top-[70px] 2xl:left-[100px]">
+        </div>
+  
+        <div class="2xl:relative 2xl:left-[249px] 2xl:top-[40px]">
+          <div
+            id="family-vacation"
+            class="bg-[#FFFFFF] h-[272px] w-[332.5px] border-[1px] rounded-[20px] relative top-[60px] left-[21px] mb-[98px] 2xl:top-[120px]"
+          >
+            <div
+              id="img1"
+              class="flex justify-center relative top-[60px] w-[80px] h-[80px] left-[140px]"
+            >
+              <img src="Pic section 2/family.png" />
+            </div>
+            <div id="text-1" class="relative top-[70px]">
+              <p style="font-family: poppins;" class="font-semibold text-[24px] leading-[32px] text-[#221314] text-center">
+                Family Vacation
+              </p>
+              <p style="font-family: DM Sans;" class="text-[18px] leading-[28px] text-[#5A7184] text-center">
+                155 Properties
+              </p>
+            </div>
+          </div>
+  
+          <div id="hidden content" class="hidden 2xl:flex">
+            <div
+              id="scuba-diving"
+              class="bg-[#FFFFFF] h-[272px] min-w-[332.5px] border-[1px] rounded-[20px] 2xl:relative 2xl: left-[382.5px] 2xl:bottom-[250px]"
+            >
+              <div id="img2" class="flex justify-center relative top-[60px]">
+                <img src="Pic section 2/Scuba.png" />
+              </div>
+              <div id="text-2" class="relative top-[70px]">
+                <p style="font-family: poppins;" class="font-semibold text-[24px] leading-[32px] text-[#221314] text-center">
+                  Scuba Diving
+                </p>
+                <p style="font-family: DM Sans;" class="text-[18px] leading-[28px] text-[#5A7184] text-center">
+                  143 Properties
+                </p>
+              </div>
+            </div>
+  
+            <div
+              id="hunting-trip"
+              class="bg-[#FFFFFF] h-[272px] min-w-[332.5px] border-[1px] rounded-[20px] 2xl:relative 2xl:left-[412.5px] bottom-[250px] "
+            >
+              <div id="img3" class="flex justify-center relative top-[60px]">
+                <img src="Pic section 2/hunting.png" />
+              </div>
+              <div id="text-3" class="relative top-[70px]">
+                <p style="font-family: poppins;" class="font-semibold text-[24px] leading-[32px] text-[#221314] text-center">
+                  Hunting Trip
+                </p>
+                <p style="font-family: DM Sans;" class="text-[18px] leading-[28px] text-[#5A7184] text-center">
+                  122 Properties
+                </p>
+              </div>
+            </div>
+  
+            <div
+              id="moutain-bike"
+              class="bg-[#FFFFFF] h-[272px] min-w-[332.5px] border-[1px] rounded-[20px] 2xl:relative 2xl:left-[442.5px] bottom-[250px]"
+            >
+              <div id="img4" class="flex justify-center relative top-[60px]">
+                <img src="Pic section 2/bike.png" />
+              </div>
+              <div id="text-4" class="relative top-[70px]">
+                <p style="font-family: poppins;" class="font-semibold text-[24px] leading-[32px] text-[#221314] text-center">
+                  Moutain Bike
+                </p>
+                <p style="font-family: DM Sans;" class="text-[18px] leading-[28px] text-[#5A7184] text-center">
+                  185 Properties
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-[375px] h-[804px] flex-col 2xl:flex 2xl:items-center 2xl:justify-center 2xl:w-[1919px] 2xl:h-[1176px] mx-auto">
+      <header class="2xl:w-[574px] 2xl:h-[136px] 2xl:pt-10 2xl:relative 2xl:text-[48px] 2xl:flex 2xl:justify-center  w-[327px] h-[67px] relative text-center top-[32px] font-bold text-[24px] left-[15px] mt-[32px] 2xl:mt-[54px] 2xl:mb-[70px]">
+        <h1 style="font-family: poppins;" class="2xl:relative 2xl:right-2">
+          Our Upcoming <br />Tour Package</h1>
+      </header>
+
+      <main class="2xl:relative 2xl:flex-row 2xl:gap-7 2xl:flex mx-auto ">
+        <section id="card-1" class="w-[355px] h-[494px] relative mx-auto top-[70px] 2xl:pt-20">
+          <img src="./Pic section 3/bg-card.png"/>
+          <span class="font-bold text-white text-[24px] relative bottom-96 left-[270px]">$599</span>
+          <img src="./pic section 3/Location.png" class="relative bottom-3 left-3"/>
+          <span class="relative bottom-[40px] left-10 font-bold text-[24px]">Eiffel Tower</span>
+          <span class="relative right-24 bottom-3">5d - 4n</span>
+          <img src="./Pic section 3/star.png" class="relative left-52 bottom-16"/>
+        </section>
+
+        <section id="card-2" class="w-[355px] h-[494px] relative mx-auto top-[70px] 2xl:pt-10 hidden 2xl:flex">
+        <div>
+          <img src="./Pic section 3/bg-card.png" />
+          <span class="font-bold text-white text-[24px] relative bottom-96 left-[270px]">$480</span>
+          <img src="./pic section 3/Location.png" class="relative bottom-3 left-3" />
+          <span class="relative bottom-[40px] left-10 font-bold text-[24px]">Big Bear Lake</span>
+          <span class="relative right-[120px] bottom-3">5d - 4n</span>
+          <img src="./Pic section 3/star.png" class="relative left-52 bottom-16" />
+        </div>
+        </section>
+
+        <section id="card-3" class="w-[355px] h-[494px] relative mx-auto top-[70px] 2xl:pt-20 hidden 2xl:flex">
+          <div>
+          <img src="./Pic section 3/bg-card.png" />
+          <span class="font-bold text-white text-[24px] relative bottom-96 left-[270px]">$550</span>
+          <img src="./pic section 3/Location.png" class="relative bottom-3 left-3" />
+          <span class="relative bottom-[40px] left-10 font-bold text-[20px]">Colorado Springs</span>
+          <span class="relative right-[125px] bottom-3">5d - 4n</span>
+          <img src="./Pic section 3/star.png" class="relative left-52 bottom-16" />
+          </div>
+        </section>
+      </main>
+
+      <footer class="relative text-center items-center top-32 2xl:relative 2xl:pt-20">
+        <button class="w-[180px] h-[70px] bg-gradient-to-b from-[#FE5B3E] to-[#FE7B49] rounded-[15px] text-white mb-[80px] 2xl:mb-[154px] hover:animate-pulse hover:duration-500 active:animate-ping">
+          <span class="relative top-[10px] right-6 2xl:text-[16px]">View all</span>
+          <img src="./pic section 3/Vector.png" class="relative left-28 bottom-[10px]"/>
+        </button>
+      </footer>
+    </section>
+
+    <section>
+      <main style="font-family: poppins" class="mt-[150px] " >
+        <div  class="flex flex-col justify-center w-[375px] h-[1094]   2xl:h-[888px] 2xl:w-[1920px] 2xl:flex-row-reverse items-center gap-6  bg-gray-50 ">
+          <article class="flex content-between flex-col 2xl:w-[574px] 2xl:h-[406px] ">
+            
+            <div class="text-2xl p-5  2xl:left-[1200px] top-[80px] left-[24px] font-bold 2xl:text-5xl mt-[80px]">Most Poppular<br> Destination of Us!</div>
+            <p style="font-family: DM Sans;" class="text-lg leading-[40px]  p-5  top-[164px] left-[24]  2xl:left-[1200px] 2xl:top-[350px] 2xl:w-[574px] 2xl:[h-120px]  ">
+              Credibly unleash economically sound e-business with bleeding-edge
+              users. Uniquely simplify mission-critical benefits with cross-unit
+              manufactured products. Energistically re-engineer
+            </p>
+            <button style="font-family: DM Sans;" class="bg-gradient-to-b from-[#FE5B3E] to-[#FE7B49] hidden w-[180px] h-[70px] m-5 rounded-2xl text-white   2xl:flex items-center justify-center 2xl:min-h-[70px] hover:animate-pulse hover:duration-500 active:animate-ping">View All &#8594</button>
+            
+          </article>
+          <img  class=" hidden 2xl:flex relative 2xl:top-[230px] 2xl:right-[590px]" src="/img/Arrow20.png" alt="arrow">
+          
+            <aside class="w-[327px] h-[450px] hidden bg-[#C4C4C4] rounded-3xl p-6   items-end justify-between text-white 2xl:flex  ">
+              <div ><span>Great Wall of China</span> <br> <span style="font-family: DM Sans;" class="opacity-70">China</span></div>
+        
+              <div>4.8 &#9733</div>
+            </aside>
+            <aside class="w-[327px] h-[450px] bg-[#C4C4C4] rounded-3xl p-6 flex  items-end justify-between text-white relative  2xl:bottom-10  ">
+              <div ><span>Lake Powell</span> <br> <span style="font-family: DM Sans;" class="opacity-70">U.S.A</span></div>             
+              <div>4.8 &#9733</div>
+            </aside>
+            <aside class="w-[327px] h-[450px] hidden bg-[#C4C4C4] rounded-3xl p-6  items-end justify-between text-white 2xl:flex "> 
+              <div ><span>Deep Creek Lake</span> <br> <span style="font-family: DM Sans;" class="opacity-70">Maryland</span></div>          
+              <div>4.8 &#9733</div>
+            </aside>
+             <img class="w-[92px] h-[20px] m-5 2xl:hidden   top-[830px] " src="/img/Group 5829446.png" alt="radio"> 
+             <button style="font-family: DM Sans;" class="bg-gradient-to-b from-[#FE5B3E] to-[#FE7B49] w-[180px] h-[70px]  m-5 rounded-2xl text-white  2xl:hidden mb-[80px] hover:animate-pulse hover:duration-500 active:animate-ping">View All &#8594</button>
+             
+            
+          
+        
+        </div>
+      </main>
+    </section>
+    <section>
+      <div
+        class="mt-[80px] ml-[10px] mb-[33.47px] mr-[13.34px] flex flex-col items-center gap-[30px] max-w-[351.66px] 2xl:max-w-[1417px] 2xl:flex 2xl:flex-row 2xl:justify-center 2xl:gap-[214px]"
+      >
+        <span class="flex justify-center items-center 2xl:min-w-[632px]"
+          ><img src="./img/section5/Img.png" alt="image"
+        /></span>
+        <span
+          class="mx-[24px] mb-[33.47px] min-w-[327px] flex flex-col items-start justify-center 2xl:mt-[170.96px] 2xl:mx-0 2xl:mb-[52.04px]"
+        >
+          <header
+            class="font-bold text-[24px] leading-[34px] flex flex-col mb-[30px] 2xl:text-[48px] 2xl:leading-[68px] 2xl:mb-[40px] text-black"
+          >
+            <span style="font-family: poppins">Feedback from</span>
+            <span style="font-family: poppins">Our Customers</span>
+          </header>
+          <main
+            style="font-family: poppins"
+            class="font-semibold text-[20px] leading-[40px] tracking-[0.2px] mb-[16px] 2xl:text-[24px] 2xl:leading-[48px] 2xl:mb-[24px] text-black"
+          >
+            “I’ve Went ot America from Tripp Play about 1 years ago. Tripp make
+            the prototyping process so easy and faster. I feel this is the best
+            apps for Prototyping use”
+          </main>
+          <footer
+            style="font-family: DM Sans"
+            class="font-normal text-[18px] leading-[23.44px] mb-[30px] 2xl:mb-[50px] text-slate-600 "
+          >
+            — Ferdous - CEO of Coco
+          </footer>
+          <div class="flex gap-[16px]">
+            <span class="max-w-[48px] max-h-[48px]">
+              <button class="bg-[#FE5B3E] w-[36px] h-[36px] rounded-2xl flex justify-center items-center m-[6px] hover:w-[44px] hover:h-[44px] hover:animate-pulse hover:duration-500 active:animate-ping"><img src="./img/section5/Vector.png" alt="Left-arrow" class="rotate-180"></button>
+            </span>
+            <span class="max-w-[48px] max-h-[48px]">
+              <button class="bg-[#FE5B3E] w-[36px] h-[36px] rounded-2xl flex justify-center items-center m-[6px] hover:w-[44px] hover:h-[44px] hover:animate-pulse hover:duration-500 active:animate-ping"><img src="./img/section5/Vector.png" alt="Right-arrow"></button>
+            </span>
+          </div>
+        </span>
+      </div>
+    </section>
+    <section>
+      <header
+        class="font-bold text-[24px] leading-[34px] black flex flex-col items-center mt-[47px] mx-[24px] mb-[39.53px] min-w-[327px] text-black 2xl:text-[48px] 2xl:leading-[68px] 2xl:min-w-[574px] 2xl:mt-[69px] 2xl:mx-[273px] 2xl:mb-[90px]"
+      >
+        <p style="font-family: poppins">World Top Visiting</p>
+        <p style="font-family: poppins">Place in 2021</p>
+      </header>
+      <main class="relative flex justify-center">
+        <div style="background-image: url(/img/section6/Map.png);" class="w-[355px] h-[186.47px] mx-[10px] 2xl:hidden">
+          <span>
+            <img src="./img/section6/mexico 1.png" alt="maxico" class="absolute ml-[43px] mt-[68.79px] bg-white border-[1.18px] border-white rounded-[14.13px] [box-shadow:1.18px_7.07px_13.22px_0px_#3737374D] hover:animate-bounce">
+          </span>
+          <span>
+            <img src="./img/section6/france 1.png" alt="france" class="absolute ml-[159.57px] mt-[45.47px] bg-white border-[1.18px] border-white rounded-[14.13px] [box-shadow:1.18px_7.07px_13.22px_0px_#3737374D] hover:animate-bounce">
+          </span> 
+          <span>
+            <img src="./img/section6/australia 1.png" alt="australia" class="absolute ml-[292.74px] mt-[113.3px] bg-white border-[1.18px] border-white rounded-[14.13px] [box-shadow:1.18px_7.07px_13.22px_0px_#3737374D] hover:animate-bounce">
+          </span>   
+        </div>
+        <div style="background-image: url(./img/section6/Map2xl.png);" class="2xl:w-[1523px] 2xl:h-[745px] hidden 2xl:flex">
+          <span>
+            <img src="./img/section6/mexico 2.png" alt="maxico" class="absolute ml-[221.26px] mt-[288px] bg-white border-[5px] border-white rounded-[60px] [box-shadow:5px_30px_56.13px_0px_#3737374D] hover:animate-bounce">
+          </span>
+          <div
+            class="hidden 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center 2xl:absolute 2xl:top-[432px] 2xl:left-[237.26px] w-[100px]"
+          >
+            <p
+              style="font-family: poppins"
+              class="font-semibold text-[24px] leading-[32px] tracking-[0.2px]"
+            >
+              Mexico
+            </p>
+            <p
+              style="font-family: DM Sans"
+              class="font-normal text-[18px] leading-[28px] text-slate-600"
+            >
+              03 Tour
+            </p>
+          </div>
+          <span>
+            <img src="./img/section6/france 2.png" alt="france" class="absolute ml-[716.26px] mt-[189px] bg-white border-[5px] border-white rounded-[60px] [box-shadow:5px_30px_56.13px_0px_#3737374D] hover:animate-bounce">
+          </span>
+          <div
+            class="hidden 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center 2xl:absolute 2xl:left-[733.26px] 2xl:top-[333px] w-[100px]"
+          >
+            <p
+              style="font-family: poppins"
+              class="font-semibold text-[24px] leading-[32px] tracking-[0.2px]"
+            >
+              France
+            </p>
+            <p
+              style="font-family: DM Sans"
+              class="font-normal text-[18px] leading-[28px] text-slate-600"
+            >
+              03 Tour
+            </p>
+          </div>
+          <span>
+            <img src="./img/section6/australia 2.png" alt="australia" class="absolute ml-[1239.26px] mt-[477px] bg-white border-[5px] border-white rounded-[60px] [box-shadow:5px_30px_56.13px_0px_#3737374D] hover:animate-bounce">
+          </span>
+          <div
+            class="hidden 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center 2xl:absolute 2xl:left-[1242.26px] 2xl:mt-[620px] w-[123px]"
+          >
+            <p
+              style="font-family: poppins"
+              class="font-semibold text-[24px] leading-[32px] tracking-[0.2px]"
+            >
+              Australia
+            </p>
+            <p
+              style="font-family: DM Sans"
+              class="font-normal text-[18px] leading-[28px] text-slate-600"
+            >
+              03 Tour
+            </p>
+          </div>
+        </div>
+      </main>
+    </section>
+    <section>
+      <div
+        class="flex flex-col justify-center items-center max-w-[375px] 2xl:min-w-[1920px]"
+      >
+        <div class="relative">
+          <img src="./img/section7/bg2xl.png" alt="background" class="hidden 2xl:flex" />
+          <img src="./img/section7/Background.png" alt="Background" class="2xl:hidden" />
+          <header
+            class="font-bold text-[30px] leading-[40px] left-[24px] bottom-[362px] absolute 2xl:left-[250px] 2xl:bottom-[402px]"
+          >
+            <p style="font-family: poppins">Subscribe</p>
+            <p style="font-family: poppins">for every Tour</p>
+            <p style="font-family: poppins">News & Tips</p>
+          </header>
+          <main
+            class="bg-white absolute w-[355px] h-[100px] rounded-[20px] drop-shadow-xl bottom-[232px] mx-[10px] 2xl:w-[574px] 2xl:left-[240px] 2xl:bottom-[244px]"
+          >
+            <input
+              type="text"
+              placeholder="Your Email"
+              style="font-family: DM Sans"
+              class="absolute top-[35px] left-[26px] w-[130px] h-[30px] p-1 outline-none 2xl:hidden"
+            />
+            <input
+              type="text"
+              placeholder="Enter Your Email"
+              style="font-family: DM Sans"
+              class="absolute top-[35px] left-[26px] w-[300px] h-[30px] p-1 outline-none hidden 2xl:flex"
+            />
+            <button
+              style="font-family: DM Sans"
+              class="absolute left-[180px] top-[15px] flex gap-[5px] font-bold text-white text-[16px] leading-[20.83px] 2xl:left-[399px] 2xl:top-[15px] hover:animate-pulse hover:duration-500 bg-gradient-to-b from-[#FE5B3E] to-[#FE7B49] w-[160px] h-[70px] rounded-[15px] justify-center items-center hover:w-[168px] hover:h-[78px] 2xl:hover:top-[11px] 2xl:hover:left-[395px] hover:top-[11px] hover:left-[175px] active:animate-ping"
+              >Subscribe <span><img src="./img/section7/arrow.png" alt="arrow" /></span
+            ></button>
+          </main>
+          <img
+            src="./img/section7/Tripp..png"
+            alt="logo"
+            class="absolute left-[24px] bottom-[130.53px] 2xl:left-[250px] 2xl:bottom-[92.52px]"
+          />
+          <footer
+            style="font-family: DM Sans"
+            class="absolute bottom-[74.53px] left-[24px] font-medium text-[18px] leading-[28px] 2xl:flex 2xl:left-[250px] 2xl:bottom-[59.52px]"
+          >
+            <p>Copyright©Tripp.</p>
+            <p>All right reserved</p>
+          </footer>
+          <button class="bg-[#E2E2EA] w-[40px] h-[40px] flex flex-row justify-center items-center rounded-full absolute bottom-[18.53px] left-[168px] 2xl:left-[899px] 2xl:bottom-[60px] hover:-translate-y-2 active:animate-ping">
+            <img src="./img/section7/in.png" alt="in">
+          </button>
+          <button class="bg-[#E2E2EA] w-[40px] h-[40px] flex flex-row justify-center items-center rounded-full absolute bottom-[18.53px] left-[120px] 2xl:left-[851px] 2xl:bottom-[60px] hover:-translate-y-2 active:animate-ping">
+            <img src="./img/section7/instagram.png" alt="in">
+          </button>
+          <button class="bg-[#E2E2EA] w-[40px] h-[40px] flex flex-row justify-center items-center rounded-full absolute bottom-[18.53px] left-[72px] 2xl:left-[803px] 2xl:bottom-[60px] hover:-translate-y-2 active:animate-ping">
+            <img src="./img/section7/twitter.png" alt="in">
+          </button>
+          <button class="bg-[#E2E2EA] w-[40px] h-[40px] flex flex-row justify-center items-center rounded-full absolute bottom-[18.53px] left-[24px] 2xl:left-[755px] 2xl:bottom-[60px] hover:-translate-y-2 active:animate-ping">
+            <img src="./img/section7/google.png" alt="in">
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
